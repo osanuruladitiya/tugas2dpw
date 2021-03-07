@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	<header>
-			<hl><a href="tugas2.html">My Website</a></hl>
+			<hl><a href="indeks.php">My Website</a></hl>
 		<ul>
 			<li><a href="myproject.html">My Project</a></li>
 			<li><a href="about.html">About Me</a></li>
