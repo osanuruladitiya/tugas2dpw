@@ -1,0 +1,123 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none; 
+}
+.medsos {
+	padding:3px 0;
+	background-color: #33FFA7;
+}
+.medsos  ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+
+}
+
+
+header h1 {
+	float: left;
+
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:15px 10px;
+	display: inline-block; 
+}
+header ul li a:hover {
+	background-color: #33FFA7;
+	color: #fff;
+}
+.active {
+	background-color: #33FFA7;
+}
+
+.banner {
+	height:100vh;
+	border:1px solid;
+	color: #ddd;
+	background-image: url('../img/benner.png');
+	background-size: cover;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #33FFA7;
+}
+
+ 
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+.label {
+	background-color: #33FFA7;
+	color: #fff;	
+}
+
+.pilihan {
+	color: #fff;
+}
+
+.pertanyaan {
+	padding-top: 30px;
+	margin-top: 50px;
+}
+.isi {
+	padding-top: 50px;
+	margin-top: 50px;
+}
+.askme {
+	padding:40px;
+	margin:40px;
+}
+
+section#input-form{
+	position: relative;
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 60px;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 0 7px 0px rgba(51, 255, 167);
+	padding: 30px;
+}
+#input-form .form{
+	width: 100%;
+	display: grid;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+label{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+}
+input{
+	font-family: 'Helvetica', sans-serif;
+	padding: 10px 20px 10px 20px;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #8888;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
